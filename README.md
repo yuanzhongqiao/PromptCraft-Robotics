@@ -1,27 +1,14 @@
-# PromptCraft-Robotics
-
-The PromptCraft-Robotics repository serves as a community for people to test and share interesting prompting examples for large language models (LLMs) within the robotics domain. We also provide a sample [robotics simulator](https://github.com/microsoft/PromptCraft-Robotics/tree/main/chatgpt_airsim) (built on Microsoft AirSim) with ChatGPT integration for users to get started.
-
-We currently focus on OpenAI's [ChatGPT](https://openai.com/blog/chatgpt/), but we also welcome examples from other LLMs (for example open-sourced models or others with API access such as [GPT-3](https://openai.com/api/) and Codex).
-
-Users can contribute to this repository by submitting interesting prompt examples to the [Discussions](https://github.com/microsoft/PromptCraft-Robotics/discussions) section of this repository. A prompt can be submitted within different robotics categories such as [Manipulation](https://github.com/microsoft/PromptCraft-Robotics/discussions/categories/llm-manipulation), [Home Robotics](https://github.com/microsoft/PromptCraft-Robotics/discussions/categories/llm-home-robots), [Physical Reasoning](https://github.com/microsoft/PromptCraft-Robotics/discussions/categories/llm-physical-reasoning), among many others.
-Once submitted, the prompt will be reviewed by the community (upvote your favorites!) and added to the repository by a team of admins if it is deemed interesting and useful.
-We encourage users to submit prompts that are interesting, fun, or useful. We also encourage users to submit prompts that are not necessarily "correct" or "optimal" but are interesting nonetheless.
-
-We encourage prompt submissions formatted as markdown, so that they can be easily transferred to the main repository. Please specify which LLM you used, and if possible provide other visuals of the model in action such as videos and pictures.
-
-## Paper, videos and citations
-
-Blog post: <a href="https://aka.ms/ChatGPT-Robotics" target="_blank">aka.ms/ChatGPT-Robotics</a>
-
-Paper: <a href="https://www.microsoft.com/en-us/research/uploads/prod/2023/02/ChatGPT___Robotics.pdf" target="_blank">ChatGPT for Robotics: Design Principles and Model Abilities
-
-Video: <a href="https://youtu.be/NYd0QcZcS6Q" target="_blank">https://youtu.be/NYd0QcZcS6Q</a>
-
-If you use this repository in your research, please cite the following paper:
-
-```
-@techreport{vemprala2023chatgpt,
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><h1 tabindex="-1" dir="auto"><a id="user-content-promptcraft-robotics" class="anchor" aria-hidden="true" tabindex="-1" href="#promptcraft-robotics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PromptCraft-机器人</font></font></h1>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PromptCraft-Robotics 存储库作为一个社区，供人们测试和分享机器人领域内大&ZeroWidthSpace;&ZeroWidthSpace;型语言模型 (LLM) 的有趣提示示例。我们还提供了一个集成了ChatGPT 的</font></font><a href="https://github.com/microsoft/PromptCraft-Robotics/tree/main/chatgpt_airsim"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">机器人模拟器</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">示例（基于 Microsoft AirSim 构建），供用户入门。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们目前专注于 OpenAI 的</font></font><a href="https://openai.com/blog/chatgpt/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，但我们也欢迎来自其他法学硕士的示例（例如开源模型或其他具有 API 访问权限的模型，例如</font></font><a href="https://openai.com/api/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GPT-3</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和 Codex）。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://github.com/microsoft/PromptCraft-Robotics/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户可以通过向该存储库的讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分提交有趣的提示示例来为该存储库做出贡献</font><font style="vertical-align: inherit;">。提示可以在不同的机器人类别中提交，例如</font></font><a href="https://github.com/microsoft/PromptCraft-Robotics/discussions/categories/llm-manipulation"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操作</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://github.com/microsoft/PromptCraft-Robotics/discussions/categories/llm-home-robots"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家庭机器人</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">、</font></font><a href="https://github.com/microsoft/PromptCraft-Robotics/discussions/categories/llm-physical-reasoning"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">物理推理</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">等。提交后，提示将由社区进行审核（为您最喜欢的投票点赞！），如果认为有趣且有用，则由管理员团队将其添加到存储库中。我们鼓励用户提交有趣、有趣或有用的提示。我们还鼓励用户提交不一定“正确”或“最佳”但仍然有趣的提示。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们鼓励以 Markdown 格式及时提交，以便可以轻松地将它们转移到主存储库。请指定您使用的法学硕士，如果可能，请提供模型实际运行的其他视觉效果，例如视频和图片。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-paper-videos-and-citations" class="anchor" aria-hidden="true" tabindex="-1" href="#paper-videos-and-citations"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文、视频和引文</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">博客文章：</font></font><a href="https://aka.ms/ChatGPT-Robotics" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">aka.ms/ChatGPT-Robotics</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">论文：</font></font><a href="https://www.microsoft.com/en-us/research/uploads/prod/2023/02/ChatGPT___Robotics.pdf" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT for Robotics：设计原理和模型能力</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频：</font></font><a href="https://youtu.be/NYd0QcZcS6Q" rel="nofollow"></a><a href="https://youtu.be/NYd0QcZcS6Q" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://youtu.be/NYd0QcZcS6Q</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您在研究中使用此存储库，请引用以下论文：</font></font></p>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>@techreport{vemprala2023chatgpt,
 author = {Vemprala, Sai and Bonatti, Rogerio and Bucker, Arthur and Kapoor, Ashish},
 title = {ChatGPT for Robotics: Design Principles and Model Abilities},
 institution = {Microsoft},
@@ -30,60 +17,69 @@ month = {February},
 url = {https://www.microsoft.com/en-us/research/publication/chatgpt-for-robotics-design-principles-and-model-abilities/},
 number = {MSR-TR-2023-8},
 }
-```
-
-## ChatGPT Prompting Guides & Examples
-
-The list below contains links to the different robotics categories and their corresponding prompt examples. We welcome contributions to this repository to add more robotics categories and examples. Please submit prompt examples to the [Discussions](https://github.com/microsoft/PromptCraft-Robotics/discussions) page, or submit a pull request with your category and examples.
-
-* Embodied agent 
-  * [ChatGPT - Habitat, closed loop object navigation 1](examples/embodied_agents/visual_language_navigation_1.md)
-  * [ChatGPT - Habitat, closed loop object navigation 2](examples/embodied_agents/visual_language_navigation_2.md)
-  * [ChatGPT - AirSim, object navigation using RGBD](examples/embodied_agents/airsim_objectnavigation.md)
-* Aerial robotics
-  * [ChatGPT - Real robot: Tello deployment](examples/aerial_robotics/tello_example.md) | [Video Link](https://youtu.be/i5wZJFb4dyA)
-  * [ChatGPT - AirSim turbine Inspection](examples/aerial_robotics/airsim_turbine_inspection.md) | [Video Link](https://youtu.be/38lA3U2J43w)
-  * [ChatGPT - AirSim solar panel Inspection](examples/aerial_robotics/airsim_solarpanel_inspection.md)
-  * [ChatGPT - AirSim obstacle avoidance](examples/aerial_robotics/airsim_obstacleavoidance.md) | [Video Link](https://youtu.be/Vn6NapLlHPE)
-* Manipulation
-  * [ChatGPT - Real robot: Picking, stacking, and building the MSFT logo](examples/manipulation/pick_stack_msft_logo.md) | [Video Link](https://youtu.be/wLOChUtdqoA)
-  * [ChatGPT - Manipulation tasks](examples/manipulation/manipulation_zeroshot.md)
-* Spatial-temporal reasoning
-  * [ChatGPT - Visual servoing with basketball](examples/spatial_temporal_reasoning/visual_servoing_basketball.md)
-
-
-## ChatGPT + Robotics Simulator
-
-We provice a sample [AirSim](https://github.com/microsoft/AirSim) environment for users to test their ChatGPT prompts. The environment is a binary containing a sample inspection environment with assets such as wind turbines, electric towers, solar panels etc. The environment comes with a drone and interfaces with ChatGPT such that users can easily send commands in natural language. [[Simulator Link]](chatgpt_airsim/README.md)
-
-We welcome contributions to this repository to add more robotics simulators and environments. Please submit a pull request with your simulator and environment.
-
-## Related resources
-
-Beyond the prompt examples here, we leave useful and related links to the use of large language models below:
-
-* [Read about the OpenAI APIs](https://openai.com/api/)
-* [Azure OpenAI service](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service)
-* [OPT language model](https://huggingface.co/docs/transformers/model_doc/opt)
-
-## Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
-## Trademarks
-
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+</code></pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@techreport{vemprala2023chatgpt,
+author = {Vemprala, Sai and Bonatti, Rogerio and Bucker, Arthur and Kapoor, Ashish},
+title = {ChatGPT for Robotics: Design Principles and Model Abilities},
+institution = {Microsoft},
+year = {2023},
+month = {February},
+url = {https://www.microsoft.com/en-us/research/publication/chatgpt-for-robotics-design-principles-and-model-abilities/},
+number = {MSR-TR-2023-8},
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<h2 tabindex="-1" dir="auto"><a id="user-content-chatgpt-prompting-guides--examples" class="anchor" aria-hidden="true" tabindex="-1" href="#chatgpt-prompting-guides--examples"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT 提示指南和示例</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下面的列表包含不同机器人类别及其相应提示示例的链接。我们欢迎对此存储库做出贡献，以添加更多机器人类别和示例。请将提示示例提交到</font></font><a href="https://github.com/microsoft/PromptCraft-Robotics/discussions"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">讨论</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">页面，或提交包含您的类别和示例的拉取请求。</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">体现代理人
+</font></font><ul dir="auto">
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/embodied_agents/visual_language_navigation_1.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - 栖息地，闭环对象导航 1</font></font></a></li>
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/embodied_agents/visual_language_navigation_2.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - 栖息地，闭环对象导航 2</font></font></a></li>
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/embodied_agents/airsim_objectnavigation.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - AirSim，使用 RGBD 的对象导航</font></font></a></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">空中机器人
+</font></font><ul dir="auto">
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/aerial_robotics/tello_example.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - 真实机器人：Tello 部署</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font><a href="https://youtu.be/i5wZJFb4dyA" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频链接</font></font></a></li>
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/aerial_robotics/airsim_turbine_inspection.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - AirSim 涡轮机检查</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">| ChatGPT</font></font><a href="https://youtu.be/38lA3U2J43w" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频链接</font></font></a></li>
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/aerial_robotics/airsim_solarpanel_inspection.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - AirSim 太阳能电池板检测</font></font></a></li>
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/aerial_robotics/airsim_obstacleavoidance.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - AirSim 避障</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|</font></font><a href="https://youtu.be/Vn6NapLlHPE" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频链接</font></font></a></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">操纵
+</font></font><ul dir="auto">
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/manipulation/pick_stack_msft_logo.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - 真实机器人：拾取、堆垛和构建 MSFT 徽标</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">| ChatGPT</font></font><a href="https://youtu.be/wLOChUtdqoA" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">视频链接</font></font></a></li>
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/manipulation/manipulation_zeroshot.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - 操作任务</font></font></a></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">时空推理
+</font></font><ul dir="auto">
+<li><a href="/microsoft/PromptCraft-Robotics/blob/main/examples/spatial_temporal_reasoning/visual_servoing_basketball.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT - 篮球视觉伺服</font></font></a></li>
+</ul>
+</li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-chatgpt--robotics-simulator" class="anchor" aria-hidden="true" tabindex="-1" href="#chatgpt--robotics-simulator"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ChatGPT + 机器人模拟器</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们为用户提供示例</font></font><a href="https://github.com/microsoft/AirSim"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">AirSim</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">环境来测试其 ChatGPT 提示。该环境是一个二进制文件，包含样本检查环境，其中包含风力涡轮机、电塔、太阳能电池板等资产。该环境配有无人机并与 ChatGPT 接口，以便用户可以轻松地以自然语言发送命令。</font></font><a href="/microsoft/PromptCraft-Robotics/blob/main/chatgpt_airsim/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[模拟器链接]</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们欢迎对此存储库做出贡献，以添加更多机器人模拟器和环境。请提交带有您的模拟器和环境的拉取请求。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-related-resources" class="anchor" aria-hidden="true" tabindex="-1" href="#related-resources"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">相关资源</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">除了此处的提示示例之外，我们还在下面留下了使用大型语言模型的有用且相关的链接：</font></font></p>
+<ul dir="auto">
+<li><a href="https://openai.com/api/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解 OpenAI API</font></font></a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/cognitive-services/openai-service" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Azure OpenAI 服务</font></font></a></li>
+<li><a href="https://huggingface.co/docs/transformers/model_doc/opt" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OPT语言模型</font></font></a></li>
+</ul>
+<h2 tabindex="-1" dir="auto"><a id="user-content-contributing" class="anchor" aria-hidden="true" tabindex="-1" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目欢迎贡献和建议。大多数贡献都要求您同意贡献者许可协议 (CLA)，声明您有权并且实际上授予我们使用您的贡献的权利。有关详细信息，请访问</font></font><a href="https://cla.opensource.microsoft.com" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">https://cla.opensource.microsoft.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">当您提交拉取请求时，CLA 机器人将自动确定您是否需要提供 CLA 并适当地修饰 PR（例如，状态检查、评论）。只需按照机器人提供的说明进行操作即可。您只需使用我们的 CLA 在所有存储库中执行一次此操作。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目采用了</font></font><a href="https://opensource.microsoft.com/codeofconduct/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">微软开源行为准则</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。有关详细信息，请参阅</font></font><a href="https://opensource.microsoft.com/codeofconduct/faq/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">行为准则常见问题解答</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">或联系</font></font><a href="mailto:opencode@microsoft.com"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">opencode@microsoft.com</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">提出任何其他问题或意见。</font></font></p>
+<h2 tabindex="-1" dir="auto"><a id="user-content-trademarks" class="anchor" aria-hidden="true" tabindex="-1" href="#trademarks"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商标</font></font></h2>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目可能包含项目、产品或服务的商标或徽标。 Microsoft 商标或徽标的授权使用须遵守且必须遵循
+</font></font><a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Microsoft 的商标和品牌指南</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。在此项目的修改版本中使用 Microsoft 商标或徽标不得引起混淆或暗示 Microsoft 赞助。对第三方商标或徽标的任何使用均须遵守这些第三方的政策。</font></font></p>
+</article></div>
